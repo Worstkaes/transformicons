@@ -1,0 +1,16 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+</head>
+<body>
+<button id="button" class="lines-button arrow x arrow-left" type="button" role="button" aria-label="Toggle Navigation">
+    <span class="lines"></span>
+</button>
+<script>
+    $('#button').click(function(){
+        $(this).toggleClass('close');
+    });
+</script>
+</body>
+</html>
